@@ -32,3 +32,14 @@ layout: default
         </div>
     </div>
 </div>
+
+<div class="tile is-ancestor">
+    <div class="tile">
+        <div class="box" >
+            <h1 class="title">Newsletter</h1>
+            <div class="content">
+                {% include components/newsletter.html %}
+            </div>
+        </div>
+    </div>
+</div>
